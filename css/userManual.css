@@ -1,0 +1,331 @@
+.box-header {
+    background-color: #77C8D0;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.logo {
+    display: flex;
+    justify-content: right;
+}
+
+.menu>li>a {
+    font-weight: bolder;
+}
+
+.menu .nav-link {
+    justify-content: center;
+}
+
+.box-input-search {
+    width: 100%;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.box-input-search input {
+    height: 80%;
+    border: none;
+    width: 90%;
+    outline: none;
+}
+
+.box-input-search svg {
+    height: 60%;
+    width: 5%;
+}
+
+.box-title a,
+.box-title span {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.box-title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.nav-extend {
+    background-image: url("../image/background-xanh-duong-3-tong-mau.jpg");
+    padding: 20px 0px 20px 80px;
+    display: none;
+    width: 100vw;
+}
+
+.nav-extend>table {
+    width: auto;
+    color: white;
+}
+
+.nav-extend li a {
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: #212121;
+}
+
+.nav-extend li {
+    list-style-type: none;
+    width: 70%;
+}
+
+.nav-item {
+    margin-right: 120px;
+    height: auto;
+}
+
+footer {
+    margin-top: 100px;
+    font-size: 14px;
+    background-color: #77C8D0;
+    color: white;
+    padding: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-meadia {
+    margin: 20px 0;
+}
+
+.social-meadia a {
+    margin-right: 10px;
+}
+
+.RQemail {
+    border-bottom: 2px solid white;
+    height: 50px;
+    color: white;
+}
+
+.box-modal {
+    border-bottom: 2px solid palevioletred;
+    height: 50px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.box-modal input {
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 95%;
+    left: 0;
+    margin-top: var(--bs-dropdown-spacer);
+}
+
+.modal-content {
+    background-image: url("../image/background-mau-xanh-da-troi.jpg");
+}
+
+.RQemail input {
+    border: none;
+    width: 90%;
+    height: 100%;
+    background-color: #77C8D0;
+}
+
+.box-modal input:focus {
+    color: black;
+    outline: none;
+}
+
+.RQemail span {
+    width: 10%;
+    height: 100%;
+}
+
+.RQemail ::placeholder {
+    color: white
+}
+
+.RQemail input:focus {
+    outline: none;
+    color: white;
+}
+
+.ddMenu {
+    display: none;
+}
+
+.ddMenu li {
+    list-style-type: none;
+}
+
+.card {
+    border: none;
+}
+
+.card-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container-card:hover .card-image {
+    opacity: 0.3;
+}
+
+.container-card:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    border: 2px solid blue;
+
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.container-card {
+    position: relative;
+}
+
+.font {
+    font-family: "Canela Web", "Big Caslon", "Times New Roman", Times, serif;
+}
+
+nav {
+    font-family: "GT Pressura Web", "Arial Narrow", Arial, sans-serif;
+}
+
+.text a {
+    text-decoration: none;
+    color: blue;
+}
+
+.card-body {
+    color: blue;
+}
+
+.content {
+    top: 200px;
+    display: flex;
+    position: relative;
+}
+
+.title {
+    width: 25%;
+}
+
+.main-content {
+    width: 75%;
+}
+
+.main-content h1 {
+    margin-bottom: 20px;
+}
+
+.content .nav-link {
+    font-size: 18px;
+}
+
+.show-hide {
+    position: absolute;
+    right: 13px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #919191;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.button-size {
+    width: 80px;
+    height: 40px;
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    margin-right: 5px;
+}
+
+.button-size-change {
+    width: 80px;
+    height: 40px;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    margin-right: 5px;
+}
+
+#myModalReview .modal-dialog,
+#terms .modal-dialog {
+    max-width: 700px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.cart-item {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.cart-item h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.cart-item p {
+    margin: 0;
+
+}
+
+.cart-item p:last-child {
+    font-weight: bold;
+}
+
+.offcanvas {
+    overflow-x: auto;
+}
+
+.btn-no-outline:focus {
+    border: none;
+}
+
+.cart-content {
+    width: 70%;
+}
